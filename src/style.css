@@ -75,15 +75,13 @@
 }
 
 .name-input {
-  height: 30px;
+  height: 35px;
   margin-bottom: 10px;
-  width: 100%;
 }
 
 .review-input {
   height: 70px;
   resize: vertical;
-  width: 100%;
 }
 
 .save-btn {
@@ -92,7 +90,6 @@
   background-color: #009427;
   color: white;
   border: 0px;
-  width: 100%;
 }
 
 .data-not-found {
