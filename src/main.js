@@ -46,7 +46,7 @@ async function main() {
   if (reviews.data.length === 0) {
     const newInfo = document.createElement("p");
 
-    newInfo.textContent = "No Data Found!";
+    newInfo.textContent = "Be the first to review this film!";
     newInfo.classList.add("data-not-found");
 
     reviewList.append(newInfo);
