@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>after-credits</title>
+    <link rel="stylesheet" href="/src/resetter.css" />
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="container-wrapper">
+        <header class="container-head">
+          <h1 class="logo">AfterCredits</h1>
+        </header>
+        <main class="container-main">
+          <section class="film-card">
+            <div class="card-item">
+              <img class="poster" src="5cm-persecond-poster.jpg" />
+            </div>
+            <div class="card-item">
+              <h3 class="title-film">5 Centimeters Persecond</h3>
+              <p class="synopsis">
+                After transferring to the same elementary school, Takaki and
+                Akari became best friends. However, their lives change when the
+                families of both are forced to relocate.
+              </p>
+            </div>
+          </section>
+          <section>
+            <div class="form-review">
+              <h3 class="section-heading">Share your review</h3>
+              <input
+                id="name"
+                class="name-input"
+                type="text"
+                placeholder="Insert your name"
+              />
+              <textarea
+                id="review"
+                class="review-input"
+                type="text"
+                placeholder="Insert your review"
+              ></textarea>
+              <button id="submit" class="save-btn">Save</button>
+            </div>
+            <h3 class="section-heading">Recents Review</h3>
+            <div class="review-list"></div>
+          </section>
+        </main>
+      </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
