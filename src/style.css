@@ -40,12 +40,8 @@
 .film-card {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  gap: 5px;
+  gap: 12px;
   padding: 60px 0 0;
-}
-
-.card-item {
-  box-sizing: border-box;
 }
 
 .poster {
