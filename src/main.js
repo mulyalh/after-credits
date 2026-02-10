@@ -32,6 +32,7 @@ async function main() {
 
   const reviewList = document.querySelector(".review-list");
   const submitBtn = document.querySelector("#submit");
+  const fragment = document.createDocumentFragment();
 
   if (reviews.status === "error") {
     const errorDisplay = document.createElement("p");
@@ -71,8 +72,10 @@ async function main() {
     newReview.textContent = review.review;
 
     newContainer.append(newName, newReview);
-    reviewList.append(newContainer);
+    fragment.append(newContainer);
   });
+
+  reviewList.append(fragment);
 }
 
 main();
